@@ -1,0 +1,153 @@
+/*-------------------------------------------estilos generales---------------------------------*/
+
+* {
+    /*Con el comando * selccionas todo en el HTML*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border box mantiene los tam. */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* familia de fuentes, trata de usar las fuentes en orden */
+}
+
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+
+/*---------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------------------header-------------------------------------------------*/
+
+header {
+    background: #808080;
+    padding: 10px 50px;
+    /*1ro valor arriba y abajo 2do valor de los lados*/
+}
+
+#logo {
+    width: 50px;
+}
+
+#logo img {
+    border-radius: 100%;
+    border: 2px solid #d2c9c9;
+}
+
+
+/*--------------------------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------Hero---------------------------------------------*/
+
+#hero {
+    position: relative;
+    /*marca el inicio del contenedor*/
+}
+
+#hero #computadora {
+    display: inline-block;
+    /*permite modificar el contenedor de forma mas libre*/
+    width: 100%;
+}
+
+#hero .information-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /*permite mover X o Y un contenedor
+    */
+    left: 0;
+    display: flex;
+    /*usar flexbox*/
+    width: 100%;
+    color: white;
+    padding: 0px 50px;
+}
+
+#hero .information-container #foto {
+    width: 200px;
+}
+
+#hero .information-container img {
+    border-radius: 100%;
+}
+
+#hero .information-container .information {
+    margin-left: 20px;
+    font-weight: bold;
+    width: calc(100% - 200px);
+}
+
+#hero .information-container span {
+    color: #b5b5b5;
+    margin-bottom: 70px;
+    display: inline-block;
+    /*mantener las caracteristicas de inline y block*/
+}
+
+
+/*---------------------------------Estilos MAin-----------------------------------------------------*/
+
+main {
+    padding: 100px;
+}
+
+main .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    list-style: none;
+}
+
+main .social-icons li {
+    margin-left: 8px;
+}
+
+main .social-icons .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+main .social-icons #Linkedin {
+    background: #0077b0;
+}
+
+main .social-icons #facebook {
+    background: #4267b2;
+}
+
+main .social-icons #platzi {
+    background: #121f3d;
+}
+
+main .social-icons #Github {
+    background: #23272d;
+}
+
+main .social-icons #instagram {
+    padding: 0%;
+}
+
+
+/* ---------------------------- Explicacion------------------------------------*/
+
+#explicacion {
+    width: 500px;
+    height: 500px;
+    background: blue;
+    padding: 100px;
+}

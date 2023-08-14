@@ -1,0 +1,67 @@
+<html>
+
+    <!--<div id = "explicacion"></div>-->
+    <head>
+        <meta charset = "utf-8" /><!-- etiqueta que se cierra sola/etiqueta de cierre -->
+        <meta name="viewport" content = "width=device-witdh, initial-scale=1.0"/> <!-- Aca se inicializa al tam del dispositivo -->
+        <link rel = "stylesheet" href = "css/styles.css" /> <!-- Hojas de estilos css/otra cosa-->
+        <title>Un titulo bonito</title>
+    </head>
+    <body><!-- Cuerpo donde estan los elemntos que contiene la pagina web -->
+        <header><!--encabezado/nivel semantico = header-->
+            <div class = "image-container" id = "logo"><!--Etiqueta generica/nivel semantico sin significado , sirve para englobar cosas-->
+                <img src = "imagenes/logo.jpg" alt = "logo"/> <!--no necesita cierre || src = source/link/path-->
+            </div>
+        </header>
+        <!-- ================================================== Segunda Clase ==========================================================-->
+        <section id = "hero"><!-- los id deben ser unicos en la pagina web-->
+            <div class = "image-container" id = "computadora"><!--muchos contenedores pueden ser de la misma clase-->
+                <img src="imagenes/computadora.jpg" alt="Foto" />
+            </div>
+            <div class = "information-container"><!-- Importante usar HTML para que entiendan los demas-->
+                <div class = "image-container" id = "foto">
+                    <img src = "imagenes/foto.png" alt = "Mi foto"/>
+                </div>
+                <div class = "information">
+                    <h1>Renzo Estefanero Chavez</h1>
+                    <span>@RenzoEst</span>
+                    <p>Estudiante de la Universidad San pablo | Frontend developer junior | Backend developer junior</p>
+                </div>
+            </div>
+        </section>
+        <!--============================================================================================================================-->
+        <!--=================================================== Tercera Clase ==========================================================-->
+        <main>
+            <p>Estoy cursando la carrera de Ciencia de la Computacion en la universidad San Pablo y tambien tengo un poco
+                 de experiencia en flutter, python, C++ y typscript. Espero poder ser un gran programador.</p>
+            <ul class="social-icons"><!-- Lista desordenada de cosas-->
+                <li>
+                    <a href = "https://www.linkedin.com/in/renzo-estefanero-8b3633208/" class = "social-icon"id = "Linkedin" > <!-- Sirve para generar enlaces o hipervinculos-->
+                        <img src = "imagenes/iconos/linkedin.png" alt = "Linkedin"/>
+                    </a>
+                </li>
+                <li>
+                    <a href = "https://github.com/OLDSPICECODE" class = "social-icon"id = "Github"> <!-- Sirve para generar enlaces o hipervinculos-->
+                        <img src = "imagenes/iconos/github.png" alt = "Github"/>
+                    </a>
+                </li>
+                <li>
+                    <a href = "https://www.instagram.com/renzoestefanero/?next=%2F" class = "social-icon"id = "instagram"> <!-- Sirve para generar enlaces o hipervinculos-->
+                        <img src = "imagenes/iconos/Instagram.png" alt = "instagram"/>
+                    </a>
+                </li>
+                <li>
+                    <a href = "https://platzi.com/p/renzo09_07/" class = "social-icon"id = "platzi"> <!-- Sirve para generar enlaces o hipervinculos-->
+                        <img src = "imagenes/iconos/platzi.png" alt = "platzi"/>
+                    </a>
+                </li>
+                <li>
+                    <a href = "https://www.facebook.com/renzo.estefanero" class = "social-icon"id = "Facebook"> <!-- Sirve para generar enlaces o hipervinculos-->
+                        <img src = "imagenes/iconos/Facebook.png" alt = "Facebook"/>
+                    </a>
+                </li>
+            </ul>
+        </main>
+        <!--============================================================================================================================-->
+    </body>
+</html>
